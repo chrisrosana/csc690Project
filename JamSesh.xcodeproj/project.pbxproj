@@ -1,0 +1,983 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13774217227A5E08006F9305 /* ChangePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13774216227A5E08006F9305 /* ChangePasswordViewController.swift */; };
+		13774219227A5E2B006F9305 /* ChangeUsernameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13774218227A5E2B006F9305 /* ChangeUsernameViewController.swift */; };
+		242CFAA62274287D0076AA74 /* SongCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242CFAA52274287D0076AA74 /* SongCell.swift */; };
+		242CFAA822742C310076AA74 /* AddSongsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242CFAA722742C310076AA74 /* AddSongsViewController.swift */; };
+		242CFAAA22742E930076AA74 /* SongSearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242CFAA922742E930076AA74 /* SongSearchCell.swift */; };
+		242CFAAD2274581D0076AA74 /* sucker.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 242CFAAC2274581D0076AA74 /* sucker.mp3 */; };
+		242CFAAF22745E6C0076AA74 /* thank-u-next.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 242CFAAE22745E6C0076AA74 /* thank-u-next.mp3 */; };
+		242CFAB122745EB60076AA74 /* 7Rings.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 242CFAB022745EB60076AA74 /* 7Rings.mp3 */; };
+		242CFAB32277DD8F0076AA74 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242CFAB22277DD8F0076AA74 /* SoundPlayer.swift */; };
+		2436DDED225FF86A000C56DF /* PlaylistCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2436DDEC225FF86A000C56DF /* PlaylistCell.swift */; };
+		245882E622729C90007BEADE /* PlaylistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 245882E522729C90007BEADE /* PlaylistViewController.swift */; };
+		245E557A227822FA00DD16D8 /* Only-Exception.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 245E5573227822F900DD16D8 /* Only-Exception.mp3 */; };
+		245E557B227822FA00DD16D8 /* Get-you.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 245E5574227822F900DD16D8 /* Get-you.mp3 */; };
+		245E557C227822FA00DD16D8 /* Be-alright.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 245E5575227822F900DD16D8 /* Be-alright.mp3 */; };
+		245E557D227822FA00DD16D8 /* sunflower.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 245E5576227822F900DD16D8 /* sunflower.mp3 */; };
+		245E557E227822FA00DD16D8 /* shelter.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 245E5577227822F900DD16D8 /* shelter.mp3 */; };
+		245E557F227822FA00DD16D8 /* feels.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 245E5578227822FA00DD16D8 /* feels.mp3 */; };
+		245E5580227822FA00DD16D8 /* Wonderwall.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 245E5579227822FA00DD16D8 /* Wonderwall.mp3 */; };
+		245E55822278B28E00DD16D8 /* lost-in-japan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 245E55812278B28E00DD16D8 /* lost-in-japan.mp3 */; };
+		245E55842278C3BA00DD16D8 /* almost-is-never-enough.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 245E55832278C3BA00DD16D8 /* almost-is-never-enough.mp3 */; };
+		245E55902278C8CF00DD16D8 /* love-someone.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 245E55872278C8CD00DD16D8 /* love-someone.mp3 */; };
+		245E55912278C8CF00DD16D8 /* breathin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 245E55882278C8CD00DD16D8 /* breathin.mp3 */; };
+		245E55922278C8CF00DD16D8 /* Kiss-and-MakeUp.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 245E55892278C8CD00DD16D8 /* Kiss-and-MakeUp.mp3 */; };
+		245E55932278C8CF00DD16D8 /* back-to-life.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 245E558A2278C8CE00DD16D8 /* back-to-life.mp3 */; };
+		245E55942278C8CF00DD16D8 /* Fallin-All-In-You.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 245E558B2278C8CE00DD16D8 /* Fallin-All-In-You.mp3 */; };
+		245E55962278C8CF00DD16D8 /* why.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 245E558D2278C8CF00DD16D8 /* why.mp3 */; };
+		245E55972278C8CF00DD16D8 /* Imagine.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 245E558E2278C8CF00DD16D8 /* Imagine.mp3 */; };
+		245E55982278C8CF00DD16D8 /* you-are-the-reason.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 245E558F2278C8CF00DD16D8 /* you-are-the-reason.mp3 */; };
+		2475EF190F3D0215BC78D71C /* Pods_JamSeshUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F605E4943A1B39AE4435484 /* Pods_JamSeshUITests.framework */; };
+		24FD4931226AD69100E042AB /* SearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FD4930226AD69100E042AB /* SearchCell.swift */; };
+		24FD4933226B03B800E042AB /* OtherProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FD4932226B03B800E042AB /* OtherProfileViewController.swift */; };
+		24FD4935226B047F00E042AB /* OtherPlaylistCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FD4934226B047F00E042AB /* OtherPlaylistCell.swift */; };
+		59047DC24AD8C332615A944D /* Pods_JamSesh.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FC2447D1BA944B53A14A35A /* Pods_JamSesh.framework */; };
+		81D79FF0225ECB7400CD9DFA /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D79FEF225ECB7400CD9DFA /* LogInViewController.swift */; };
+		81D79FF2225ECB8200CD9DFA /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D79FF1225ECB8200CD9DFA /* SignUpViewController.swift */; };
+		81D79FF4225ECBA300CD9DFA /* SessionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D79FF3225ECBA300CD9DFA /* SessionsViewController.swift */; };
+		81D79FF6225ECBAE00CD9DFA /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D79FF5225ECBAE00CD9DFA /* SearchViewController.swift */; };
+		81D79FF8225ECBBC00CD9DFA /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D79FF7225ECBBC00CD9DFA /* ProfileViewController.swift */; };
+		81D79FFA225ECBC800CD9DFA /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D79FF9225ECBC800CD9DFA /* SettingsViewController.swift */; };
+		81D79FFC225ECBE200CD9DFA /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D79FFB225ECBE200CD9DFA /* DetailsViewController.swift */; };
+		81D79FFE225ECBF100CD9DFA /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D79FFD225ECBF100CD9DFA /* CreateViewController.swift */; };
+		81ED05CE225C3D3A00A106A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81ED05CD225C3D3A00A106A6 /* AppDelegate.swift */; };
+		81ED05D0225C3D3A00A106A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81ED05CF225C3D3A00A106A6 /* ViewController.swift */; };
+		81ED05D3225C3D3A00A106A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81ED05D1225C3D3A00A106A6 /* Main.storyboard */; };
+		81ED05D5225C3D3C00A106A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81ED05D4225C3D3C00A106A6 /* Assets.xcassets */; };
+		81ED05D8225C3D3C00A106A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81ED05D6225C3D3C00A106A6 /* LaunchScreen.storyboard */; };
+		81ED05E3225C3D3C00A106A6 /* JamSeshTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81ED05E2225C3D3C00A106A6 /* JamSeshTests.swift */; };
+		81ED05EE225C3D3C00A106A6 /* JamSeshUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81ED05ED225C3D3C00A106A6 /* JamSeshUITests.swift */; };
+		AD57B5A4056F4BEBAD517FB2 /* Pods_JamSeshTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B297739D69E04DE0533C3549 /* Pods_JamSeshTests.framework */; };
+		E90C65A822791CD70085225D /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90C65A722791CD70085225D /* ChatViewController.swift */; };
+		E921607F227593A3004A8ACD /* MusicSessionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E921607E227593A3004A8ACD /* MusicSessionCell.swift */; };
+		E93C733C227E6CAF00371EA2 /* DatabaseRepresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93C733B227E6CAE00371EA2 /* DatabaseRepresentation.swift */; };
+		E93C733E227E6CB400371EA2 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93C733D227E6CB400371EA2 /* Message.swift */; };
+		E93C7340227E6CBC00371EA2 /* UICollectionView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93C733F227E6CBC00371EA2 /* UICollectionView+Additions.swift */; };
+		E93C7342227E6CC100371EA2 /* UIColor+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93C7341227E6CC100371EA2 /* UIColor+Additions.swift */; };
+		E93C7344227E700C00371EA2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E93C7343227E700C00371EA2 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		81ED05DF225C3D3C00A106A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81ED05C2225C3D3A00A106A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81ED05C9225C3D3A00A106A6;
+			remoteInfo = JamSesh;
+		};
+		81ED05EA225C3D3C00A106A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81ED05C2225C3D3A00A106A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81ED05C9225C3D3A00A106A6;
+			remoteInfo = JamSesh;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09078FF19DE35C8DE2AEFD53 /* Pods-JamSesh.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JamSesh.release.xcconfig"; path = "Target Support Files/Pods-JamSesh/Pods-JamSesh.release.xcconfig"; sourceTree = "<group>"; };
+		13774216227A5E08006F9305 /* ChangePasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordViewController.swift; sourceTree = "<group>"; };
+		13774218227A5E2B006F9305 /* ChangeUsernameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeUsernameViewController.swift; sourceTree = "<group>"; };
+		19EDD744111102E32BC8B809 /* Pods-JamSeshTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JamSeshTests.release.xcconfig"; path = "Target Support Files/Pods-JamSeshTests/Pods-JamSeshTests.release.xcconfig"; sourceTree = "<group>"; };
+		242CFAA52274287D0076AA74 /* SongCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongCell.swift; sourceTree = "<group>"; };
+		242CFAA722742C310076AA74 /* AddSongsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSongsViewController.swift; sourceTree = "<group>"; };
+		242CFAA922742E930076AA74 /* SongSearchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongSearchCell.swift; sourceTree = "<group>"; };
+		242CFAAC2274581D0076AA74 /* sucker.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sucker.mp3; sourceTree = "<group>"; };
+		242CFAAE22745E6C0076AA74 /* thank-u-next.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "thank-u-next.mp3"; sourceTree = "<group>"; };
+		242CFAB022745EB60076AA74 /* 7Rings.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 7Rings.mp3; sourceTree = "<group>"; };
+		242CFAB22277DD8F0076AA74 /* SoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
+		2436DDEC225FF86A000C56DF /* PlaylistCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistCell.swift; sourceTree = "<group>"; };
+		245882E522729C90007BEADE /* PlaylistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistViewController.swift; sourceTree = "<group>"; };
+		245E5573227822F900DD16D8 /* Only-Exception.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Only-Exception.mp3"; sourceTree = "<group>"; };
+		245E5574227822F900DD16D8 /* Get-you.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Get-you.mp3"; sourceTree = "<group>"; };
+		245E5575227822F900DD16D8 /* Be-alright.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Be-alright.mp3"; sourceTree = "<group>"; };
+		245E5576227822F900DD16D8 /* sunflower.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sunflower.mp3; sourceTree = "<group>"; };
+		245E5577227822F900DD16D8 /* shelter.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = shelter.mp3; sourceTree = "<group>"; };
+		245E5578227822FA00DD16D8 /* feels.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = feels.mp3; sourceTree = "<group>"; };
+		245E5579227822FA00DD16D8 /* Wonderwall.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Wonderwall.mp3; sourceTree = "<group>"; };
+		245E55812278B28E00DD16D8 /* lost-in-japan.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "lost-in-japan.mp3"; sourceTree = "<group>"; };
+		245E55832278C3BA00DD16D8 /* almost-is-never-enough.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "almost-is-never-enough.mp3"; sourceTree = "<group>"; };
+		245E55872278C8CD00DD16D8 /* love-someone.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "love-someone.mp3"; sourceTree = "<group>"; };
+		245E55882278C8CD00DD16D8 /* breathin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = breathin.mp3; sourceTree = "<group>"; };
+		245E55892278C8CD00DD16D8 /* Kiss-and-MakeUp.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Kiss-and-MakeUp.mp3"; sourceTree = "<group>"; };
+		245E558A2278C8CE00DD16D8 /* back-to-life.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "back-to-life.mp3"; sourceTree = "<group>"; };
+		245E558B2278C8CE00DD16D8 /* Fallin-All-In-You.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Fallin-All-In-You.mp3"; sourceTree = "<group>"; };
+		245E558D2278C8CF00DD16D8 /* why.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = why.mp3; sourceTree = "<group>"; };
+		245E558E2278C8CF00DD16D8 /* Imagine.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Imagine.mp3; sourceTree = "<group>"; };
+		245E558F2278C8CF00DD16D8 /* you-are-the-reason.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "you-are-the-reason.mp3"; sourceTree = "<group>"; };
+		24FD4930226AD69100E042AB /* SearchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCell.swift; sourceTree = "<group>"; };
+		24FD4932226B03B800E042AB /* OtherProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherProfileViewController.swift; sourceTree = "<group>"; };
+		24FD4934226B047F00E042AB /* OtherPlaylistCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherPlaylistCell.swift; sourceTree = "<group>"; };
+		2F605E4943A1B39AE4435484 /* Pods_JamSeshUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JamSeshUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D1A31A43F6951C901E666EA /* Pods-JamSeshUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JamSeshUITests.debug.xcconfig"; path = "Target Support Files/Pods-JamSeshUITests/Pods-JamSeshUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		69B522DB96BA71998657B52E /* Pods-JamSeshUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JamSeshUITests.release.xcconfig"; path = "Target Support Files/Pods-JamSeshUITests/Pods-JamSeshUITests.release.xcconfig"; sourceTree = "<group>"; };
+		81D79FEF225ECB7400CD9DFA /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		81D79FF1225ECB8200CD9DFA /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		81D79FF3225ECBA300CD9DFA /* SessionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionsViewController.swift; sourceTree = "<group>"; };
+		81D79FF5225ECBAE00CD9DFA /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		81D79FF7225ECBBC00CD9DFA /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		81D79FF9225ECBC800CD9DFA /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		81D79FFB225ECBE200CD9DFA /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		81D79FFD225ECBF100CD9DFA /* CreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
+		81ED05CA225C3D3A00A106A6 /* JamSesh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JamSesh.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		81ED05CD225C3D3A00A106A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		81ED05CF225C3D3A00A106A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		81ED05D2225C3D3A00A106A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		81ED05D4225C3D3C00A106A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		81ED05D7225C3D3C00A106A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		81ED05D9225C3D3C00A106A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81ED05DE225C3D3C00A106A6 /* JamSeshTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JamSeshTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		81ED05E2225C3D3C00A106A6 /* JamSeshTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JamSeshTests.swift; sourceTree = "<group>"; };
+		81ED05E4225C3D3C00A106A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81ED05E9225C3D3C00A106A6 /* JamSeshUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JamSeshUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		81ED05ED225C3D3C00A106A6 /* JamSeshUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JamSeshUITests.swift; sourceTree = "<group>"; };
+		81ED05EF225C3D3C00A106A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FC2447D1BA944B53A14A35A /* Pods_JamSesh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JamSesh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B297739D69E04DE0533C3549 /* Pods_JamSeshTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JamSeshTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D099649D168C551CBDC9707B /* Pods-JamSesh.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JamSesh.debug.xcconfig"; path = "Target Support Files/Pods-JamSesh/Pods-JamSesh.debug.xcconfig"; sourceTree = "<group>"; };
+		E2853060594ACF1FBA72AC8C /* Pods-JamSeshTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JamSeshTests.debug.xcconfig"; path = "Target Support Files/Pods-JamSeshTests/Pods-JamSeshTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E90C65A722791CD70085225D /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		E921607E227593A3004A8ACD /* MusicSessionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicSessionCell.swift; sourceTree = "<group>"; };
+		E93C733B227E6CAE00371EA2 /* DatabaseRepresentation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseRepresentation.swift; sourceTree = "<group>"; };
+		E93C733D227E6CB400371EA2 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		E93C733F227E6CBC00371EA2 /* UICollectionView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Additions.swift"; sourceTree = "<group>"; };
+		E93C7341227E6CC100371EA2 /* UIColor+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Additions.swift"; sourceTree = "<group>"; };
+		E93C7343227E700C00371EA2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81ED05C7225C3D3A00A106A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59047DC24AD8C332615A944D /* Pods_JamSesh.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81ED05DB225C3D3C00A106A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD57B5A4056F4BEBAD517FB2 /* Pods_JamSeshTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81ED05E6225C3D3C00A106A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2475EF190F3D0215BC78D71C /* Pods_JamSeshUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		242CFAAB227457F10076AA74 /* songs */ = {
+			isa = PBXGroup;
+			children = (
+				242CFAAE22745E6C0076AA74 /* thank-u-next.mp3 */,
+				242CFAB022745EB60076AA74 /* 7Rings.mp3 */,
+				245E5575227822F900DD16D8 /* Be-alright.mp3 */,
+				245E5578227822FA00DD16D8 /* feels.mp3 */,
+				245E55832278C3BA00DD16D8 /* almost-is-never-enough.mp3 */,
+				245E5574227822F900DD16D8 /* Get-you.mp3 */,
+				245E55812278B28E00DD16D8 /* lost-in-japan.mp3 */,
+				245E558A2278C8CE00DD16D8 /* back-to-life.mp3 */,
+				245E55882278C8CD00DD16D8 /* breathin.mp3 */,
+				245E558B2278C8CE00DD16D8 /* Fallin-All-In-You.mp3 */,
+				245E558E2278C8CF00DD16D8 /* Imagine.mp3 */,
+				245E55892278C8CD00DD16D8 /* Kiss-and-MakeUp.mp3 */,
+				245E55872278C8CD00DD16D8 /* love-someone.mp3 */,
+				245E558D2278C8CF00DD16D8 /* why.mp3 */,
+				245E558F2278C8CF00DD16D8 /* you-are-the-reason.mp3 */,
+				245E5573227822F900DD16D8 /* Only-Exception.mp3 */,
+				245E5577227822F900DD16D8 /* shelter.mp3 */,
+				245E5576227822F900DD16D8 /* sunflower.mp3 */,
+				245E5579227822FA00DD16D8 /* Wonderwall.mp3 */,
+				242CFAAC2274581D0076AA74 /* sucker.mp3 */,
+			);
+			path = songs;
+			sourceTree = "<group>";
+		};
+		24FD492C226AD4FA00E042AB /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				81ED05CF225C3D3A00A106A6 /* ViewController.swift */,
+				81D79FEF225ECB7400CD9DFA /* LogInViewController.swift */,
+				81D79FF1225ECB8200CD9DFA /* SignUpViewController.swift */,
+				81D79FF3225ECBA300CD9DFA /* SessionsViewController.swift */,
+				81D79FF5225ECBAE00CD9DFA /* SearchViewController.swift */,
+				81D79FF7225ECBBC00CD9DFA /* ProfileViewController.swift */,
+				81D79FF9225ECBC800CD9DFA /* SettingsViewController.swift */,
+				81D79FFB225ECBE200CD9DFA /* DetailsViewController.swift */,
+				81D79FFD225ECBF100CD9DFA /* CreateViewController.swift */,
+				24FD4932226B03B800E042AB /* OtherProfileViewController.swift */,
+				245882E522729C90007BEADE /* PlaylistViewController.swift */,
+				242CFAA722742C310076AA74 /* AddSongsViewController.swift */,
+				E90C65A722791CD70085225D /* ChatViewController.swift */,
+				13774216227A5E08006F9305 /* ChangePasswordViewController.swift */,
+				13774218227A5E2B006F9305 /* ChangeUsernameViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		24FD492D226AD51700E042AB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2436DDEC225FF86A000C56DF /* PlaylistCell.swift */,
+				24FD4930226AD69100E042AB /* SearchCell.swift */,
+				24FD4934226B047F00E042AB /* OtherPlaylistCell.swift */,
+				242CFAA52274287D0076AA74 /* SongCell.swift */,
+				242CFAA922742E930076AA74 /* SongSearchCell.swift */,
+				E921607E227593A3004A8ACD /* MusicSessionCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		81ED05C1225C3D3A00A106A6 = {
+			isa = PBXGroup;
+			children = (
+				81ED05CC225C3D3A00A106A6 /* JamSesh */,
+				81ED05E1225C3D3C00A106A6 /* JamSeshTests */,
+				81ED05EC225C3D3C00A106A6 /* JamSeshUITests */,
+				81ED05CB225C3D3A00A106A6 /* Products */,
+				FFEAFE928A7F439C1FE886CE /* Pods */,
+				FB66FF19E25AC4BA5B6C0246 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		81ED05CB225C3D3A00A106A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81ED05CA225C3D3A00A106A6 /* JamSesh.app */,
+				81ED05DE225C3D3C00A106A6 /* JamSeshTests.xctest */,
+				81ED05E9225C3D3C00A106A6 /* JamSeshUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81ED05CC225C3D3A00A106A6 /* JamSesh */ = {
+			isa = PBXGroup;
+			children = (
+				E93C733A227E6C5000371EA2 /* Extensions */,
+				E90C65A222791C5B0085225D /* Service */,
+				242CFAAB227457F10076AA74 /* songs */,
+				24FD492D226AD51700E042AB /* Views */,
+				24FD492C226AD4FA00E042AB /* ViewControllers */,
+				81ED05CD225C3D3A00A106A6 /* AppDelegate.swift */,
+				81ED05D1225C3D3A00A106A6 /* Main.storyboard */,
+				81ED05D4225C3D3C00A106A6 /* Assets.xcassets */,
+				81ED05D6225C3D3C00A106A6 /* LaunchScreen.storyboard */,
+				81ED05D9225C3D3C00A106A6 /* Info.plist */,
+				E93C7343227E700C00371EA2 /* GoogleService-Info.plist */,
+				242CFAB22277DD8F0076AA74 /* SoundPlayer.swift */,
+			);
+			path = JamSesh;
+			sourceTree = "<group>";
+		};
+		81ED05E1225C3D3C00A106A6 /* JamSeshTests */ = {
+			isa = PBXGroup;
+			children = (
+				81ED05E2225C3D3C00A106A6 /* JamSeshTests.swift */,
+				81ED05E4225C3D3C00A106A6 /* Info.plist */,
+			);
+			path = JamSeshTests;
+			sourceTree = "<group>";
+		};
+		81ED05EC225C3D3C00A106A6 /* JamSeshUITests */ = {
+			isa = PBXGroup;
+			children = (
+				81ED05ED225C3D3C00A106A6 /* JamSeshUITests.swift */,
+				81ED05EF225C3D3C00A106A6 /* Info.plist */,
+			);
+			path = JamSeshUITests;
+			sourceTree = "<group>";
+		};
+		E90C65A222791C5B0085225D /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				E93C733D227E6CB400371EA2 /* Message.swift */,
+				E93C733B227E6CAE00371EA2 /* DatabaseRepresentation.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		E93C733A227E6C5000371EA2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E93C7341227E6CC100371EA2 /* UIColor+Additions.swift */,
+				E93C733F227E6CBC00371EA2 /* UICollectionView+Additions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FB66FF19E25AC4BA5B6C0246 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9FC2447D1BA944B53A14A35A /* Pods_JamSesh.framework */,
+				B297739D69E04DE0533C3549 /* Pods_JamSeshTests.framework */,
+				2F605E4943A1B39AE4435484 /* Pods_JamSeshUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FFEAFE928A7F439C1FE886CE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D099649D168C551CBDC9707B /* Pods-JamSesh.debug.xcconfig */,
+				09078FF19DE35C8DE2AEFD53 /* Pods-JamSesh.release.xcconfig */,
+				E2853060594ACF1FBA72AC8C /* Pods-JamSeshTests.debug.xcconfig */,
+				19EDD744111102E32BC8B809 /* Pods-JamSeshTests.release.xcconfig */,
+				3D1A31A43F6951C901E666EA /* Pods-JamSeshUITests.debug.xcconfig */,
+				69B522DB96BA71998657B52E /* Pods-JamSeshUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81ED05C9225C3D3A00A106A6 /* JamSesh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81ED05F2225C3D3C00A106A6 /* Build configuration list for PBXNativeTarget "JamSesh" */;
+			buildPhases = (
+				A3DCA3D9B0F0CFDF4D879A05 /* [CP] Check Pods Manifest.lock */,
+				81ED05C6225C3D3A00A106A6 /* Sources */,
+				81ED05C7225C3D3A00A106A6 /* Frameworks */,
+				81ED05C8225C3D3A00A106A6 /* Resources */,
+				65C2265A935B6C7057007EF2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JamSesh;
+			productName = JamSesh;
+			productReference = 81ED05CA225C3D3A00A106A6 /* JamSesh.app */;
+			productType = "com.apple.product-type.application";
+		};
+		81ED05DD225C3D3C00A106A6 /* JamSeshTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81ED05F5225C3D3C00A106A6 /* Build configuration list for PBXNativeTarget "JamSeshTests" */;
+			buildPhases = (
+				321FC0AF54889B8CAF9DD19F /* [CP] Check Pods Manifest.lock */,
+				81ED05DA225C3D3C00A106A6 /* Sources */,
+				81ED05DB225C3D3C00A106A6 /* Frameworks */,
+				81ED05DC225C3D3C00A106A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81ED05E0225C3D3C00A106A6 /* PBXTargetDependency */,
+			);
+			name = JamSeshTests;
+			productName = JamSeshTests;
+			productReference = 81ED05DE225C3D3C00A106A6 /* JamSeshTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		81ED05E8225C3D3C00A106A6 /* JamSeshUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81ED05F8225C3D3C00A106A6 /* Build configuration list for PBXNativeTarget "JamSeshUITests" */;
+			buildPhases = (
+				58ACF54B40012D2A8B7B8FC0 /* [CP] Check Pods Manifest.lock */,
+				81ED05E5225C3D3C00A106A6 /* Sources */,
+				81ED05E6225C3D3C00A106A6 /* Frameworks */,
+				81ED05E7225C3D3C00A106A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81ED05EB225C3D3C00A106A6 /* PBXTargetDependency */,
+			);
+			name = JamSeshUITests;
+			productName = JamSeshUITests;
+			productReference = 81ED05E9225C3D3C00A106A6 /* JamSeshUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81ED05C2225C3D3A00A106A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Monali Chuatico";
+				TargetAttributes = {
+					81ED05C9225C3D3A00A106A6 = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					81ED05DD225C3D3C00A106A6 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 81ED05C9225C3D3A00A106A6;
+					};
+					81ED05E8225C3D3C00A106A6 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 81ED05C9225C3D3A00A106A6;
+					};
+				};
+			};
+			buildConfigurationList = 81ED05C5225C3D3A00A106A6 /* Build configuration list for PBXProject "JamSesh" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 81ED05C1225C3D3A00A106A6;
+			productRefGroup = 81ED05CB225C3D3A00A106A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81ED05C9225C3D3A00A106A6 /* JamSesh */,
+				81ED05DD225C3D3C00A106A6 /* JamSeshTests */,
+				81ED05E8225C3D3C00A106A6 /* JamSeshUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81ED05C8225C3D3A00A106A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				245E557E227822FA00DD16D8 /* shelter.mp3 in Resources */,
+				245E557A227822FA00DD16D8 /* Only-Exception.mp3 in Resources */,
+				245E55822278B28E00DD16D8 /* lost-in-japan.mp3 in Resources */,
+				242CFAAF22745E6C0076AA74 /* thank-u-next.mp3 in Resources */,
+				245E55842278C3BA00DD16D8 /* almost-is-never-enough.mp3 in Resources */,
+				81ED05D8225C3D3C00A106A6 /* LaunchScreen.storyboard in Resources */,
+				245E557C227822FA00DD16D8 /* Be-alright.mp3 in Resources */,
+				245E55902278C8CF00DD16D8 /* love-someone.mp3 in Resources */,
+				245E55932278C8CF00DD16D8 /* back-to-life.mp3 in Resources */,
+				245E557B227822FA00DD16D8 /* Get-you.mp3 in Resources */,
+				245E55922278C8CF00DD16D8 /* Kiss-and-MakeUp.mp3 in Resources */,
+				245E55912278C8CF00DD16D8 /* breathin.mp3 in Resources */,
+				245E55962278C8CF00DD16D8 /* why.mp3 in Resources */,
+				245E557F227822FA00DD16D8 /* feels.mp3 in Resources */,
+				242CFAB122745EB60076AA74 /* 7Rings.mp3 in Resources */,
+				242CFAAD2274581D0076AA74 /* sucker.mp3 in Resources */,
+				245E55942278C8CF00DD16D8 /* Fallin-All-In-You.mp3 in Resources */,
+				E93C7344227E700C00371EA2 /* GoogleService-Info.plist in Resources */,
+				245E55982278C8CF00DD16D8 /* you-are-the-reason.mp3 in Resources */,
+				81ED05D5225C3D3C00A106A6 /* Assets.xcassets in Resources */,
+				245E55972278C8CF00DD16D8 /* Imagine.mp3 in Resources */,
+				245E557D227822FA00DD16D8 /* sunflower.mp3 in Resources */,
+				81ED05D3225C3D3A00A106A6 /* Main.storyboard in Resources */,
+				245E5580227822FA00DD16D8 /* Wonderwall.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81ED05DC225C3D3C00A106A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81ED05E7225C3D3C00A106A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		321FC0AF54889B8CAF9DD19F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JamSeshTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58ACF54B40012D2A8B7B8FC0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JamSeshUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65C2265A935B6C7057007EF2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JamSesh/Pods-JamSesh-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/MessageInputBar/MessageInputBar.framework",
+				"${BUILT_PRODUCTS_DIR}/MessageKit/MessageKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MessageInputBar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MessageKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JamSesh/Pods-JamSesh-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3DCA3D9B0F0CFDF4D879A05 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JamSesh-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81ED05C6225C3D3A00A106A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				242CFAA62274287D0076AA74 /* SongCell.swift in Sources */,
+				81D79FFE225ECBF100CD9DFA /* CreateViewController.swift in Sources */,
+				24FD4931226AD69100E042AB /* SearchCell.swift in Sources */,
+				24FD4935226B047F00E042AB /* OtherPlaylistCell.swift in Sources */,
+				242CFAAA22742E930076AA74 /* SongSearchCell.swift in Sources */,
+				24FD4933226B03B800E042AB /* OtherProfileViewController.swift in Sources */,
+				242CFAA822742C310076AA74 /* AddSongsViewController.swift in Sources */,
+				E93C733E227E6CB400371EA2 /* Message.swift in Sources */,
+				E93C7340227E6CBC00371EA2 /* UICollectionView+Additions.swift in Sources */,
+				81D79FF6225ECBAE00CD9DFA /* SearchViewController.swift in Sources */,
+				81D79FF4225ECBA300CD9DFA /* SessionsViewController.swift in Sources */,
+				81D79FFC225ECBE200CD9DFA /* DetailsViewController.swift in Sources */,
+				242CFAB32277DD8F0076AA74 /* SoundPlayer.swift in Sources */,
+				81ED05D0225C3D3A00A106A6 /* ViewController.swift in Sources */,
+				13774219227A5E2B006F9305 /* ChangeUsernameViewController.swift in Sources */,
+				2436DDED225FF86A000C56DF /* PlaylistCell.swift in Sources */,
+				81ED05CE225C3D3A00A106A6 /* AppDelegate.swift in Sources */,
+				E93C7342227E6CC100371EA2 /* UIColor+Additions.swift in Sources */,
+				E93C733C227E6CAF00371EA2 /* DatabaseRepresentation.swift in Sources */,
+				81D79FF8225ECBBC00CD9DFA /* ProfileViewController.swift in Sources */,
+				E90C65A822791CD70085225D /* ChatViewController.swift in Sources */,
+				13774217227A5E08006F9305 /* ChangePasswordViewController.swift in Sources */,
+				245882E622729C90007BEADE /* PlaylistViewController.swift in Sources */,
+				81D79FF2225ECB8200CD9DFA /* SignUpViewController.swift in Sources */,
+				81D79FF0225ECB7400CD9DFA /* LogInViewController.swift in Sources */,
+				81D79FFA225ECBC800CD9DFA /* SettingsViewController.swift in Sources */,
+				E921607F227593A3004A8ACD /* MusicSessionCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81ED05DA225C3D3C00A106A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81ED05E3225C3D3C00A106A6 /* JamSeshTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81ED05E5225C3D3C00A106A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81ED05EE225C3D3C00A106A6 /* JamSeshUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		81ED05E0225C3D3C00A106A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81ED05C9225C3D3A00A106A6 /* JamSesh */;
+			targetProxy = 81ED05DF225C3D3C00A106A6 /* PBXContainerItemProxy */;
+		};
+		81ED05EB225C3D3C00A106A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81ED05C9225C3D3A00A106A6 /* JamSesh */;
+			targetProxy = 81ED05EA225C3D3C00A106A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		81ED05D1225C3D3A00A106A6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81ED05D2225C3D3A00A106A6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		81ED05D6225C3D3C00A106A6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81ED05D7225C3D3C00A106A6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		81ED05F0225C3D3C00A106A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		81ED05F1225C3D3C00A106A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81ED05F3225C3D3C00A106A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D099649D168C551CBDC9707B /* Pods-JamSesh.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PP55FS799T;
+				INFOPLIST_FILE = JamSesh/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.moralesmicaella.JamSesh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		81ED05F4225C3D3C00A106A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09078FF19DE35C8DE2AEFD53 /* Pods-JamSesh.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PP55FS799T;
+				INFOPLIST_FILE = JamSesh/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.moralesmicaella.JamSesh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		81ED05F6225C3D3C00A106A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2853060594ACF1FBA72AC8C /* Pods-JamSeshTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JamSeshTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.monalimirel.JamSeshTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JamSesh.app/JamSesh";
+			};
+			name = Debug;
+		};
+		81ED05F7225C3D3C00A106A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19EDD744111102E32BC8B809 /* Pods-JamSeshTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JamSeshTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.monalimirel.JamSeshTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JamSesh.app/JamSesh";
+			};
+			name = Release;
+		};
+		81ED05F9225C3D3C00A106A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D1A31A43F6951C901E666EA /* Pods-JamSeshUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JamSeshUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.monalimirel.JamSeshUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JamSesh;
+			};
+			name = Debug;
+		};
+		81ED05FA225C3D3C00A106A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69B522DB96BA71998657B52E /* Pods-JamSeshUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JamSeshUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.monalimirel.JamSeshUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JamSesh;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81ED05C5225C3D3A00A106A6 /* Build configuration list for PBXProject "JamSesh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81ED05F0225C3D3C00A106A6 /* Debug */,
+				81ED05F1225C3D3C00A106A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81ED05F2225C3D3C00A106A6 /* Build configuration list for PBXNativeTarget "JamSesh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81ED05F3225C3D3C00A106A6 /* Debug */,
+				81ED05F4225C3D3C00A106A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81ED05F5225C3D3C00A106A6 /* Build configuration list for PBXNativeTarget "JamSeshTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81ED05F6225C3D3C00A106A6 /* Debug */,
+				81ED05F7225C3D3C00A106A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81ED05F8225C3D3C00A106A6 /* Build configuration list for PBXNativeTarget "JamSeshUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81ED05F9225C3D3C00A106A6 /* Debug */,
+				81ED05FA225C3D3C00A106A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 81ED05C2225C3D3A00A106A6 /* Project object */;
+}
