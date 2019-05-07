@@ -25,35 +25,33 @@ JamSesh is a music app where you can create music sessions from your playlists. 
 ### 1. User Stories (Required and Optional)
 
 **Required Must-have Stories**
-
-- [x] User sees app icon in home screen and styled launch screen.
 - [x] User can sign up 
 - [x] User can log in
+- [x] User sees app icon in home screen and styled launch screen.
 - [x] User stays logged in across restarts
 - [x] User can view their profile
 - [x] User can edit their account information
 - [x] User can follow/unfollow another user
-- [x] User can search an account or music session
-- [x] User can play a song
-- [x] User can create a playlist
-- [x] User can delete a playlist
 - [x] User can search songs and add to their playlist
 - [x] User can remove songs from their playlist
 - [x] User can create a private/public music session
 - [x] User can join a private/public music session 
 - [x] User can chat with other users in a music session
+- [x] User can search an account or music session
+- [x] User can play a song
+- [x] User can create a playlist
+- [x] User can delete a playlist
 
 
 **Optional Nice-to-have Stories**
-
 - [ ] User can view the lyrics of a song
 - [ ] User can customize their app user interface
 - [ ] User can use automated voice controls (Houndify)
 - [ ] User can be notified when the people they follow creates a music session
 - [ ] User can be notified if they have been invited to another user’s music session
+- [ ] User can share through social media 
 
 ### 2. Screen Archetypes
-
 * Login 
    * User can login
 * Register - User signs up or logs into their account
@@ -81,7 +79,6 @@ JamSesh is a music app where you can create music sessions from your playlists. 
 ### 3. Navigation
 
 **Tab Navigation** (Tab to Screen)
-
 * Sessions List
 * Search User & Song
 * Profile & Library
@@ -95,16 +92,16 @@ JamSesh is a music app where you can create music sessions from your playlists. 
 * Settings -> Toggle settings
 
 ## Wireframes
-<img src='https://i.imgur.com/XaK2pXV.jpg' title='Wireframes' width='' alt='Wireframes' />
+<img src='https://user-images.githubusercontent.com/47466831/57339262-c7989c80-70e5-11e9-9e5e-227cb187c3a1.JPG' title='Wireframes' width='' alt='Wireframes' />
+
 
 ### Digital Wireframes & Mockups
-<img src='https://i.imgur.com/gYcJZJg.jpg' title='Digital Wireframes' width='' alt='Digital Wireframes' />
+<img src='https://user-images.githubusercontent.com/47466831/57339413-5a393b80-70e6-11e9-9fa3-a88c21a9d94c.JPG' title='Digital Wireframes' width='' alt='Digital Wireframes' />
 
 ## Schema 
 ### Models
 
 #### User
-
 | Property      | Type     | Description |
 | ------------- | -------- | ------------|
 | objectId      | String   | unique id for the user (default field) |
@@ -120,7 +117,6 @@ JamSesh is a music app where you can create music sessions from your playlists. 
 
 
 #### MusicSession
-
 | Property      | Type     | Description |
 | ------------- | -------- | ------------|
 | objectId      | String   | unique id for the user's music session (default field) |
@@ -131,7 +127,6 @@ JamSesh is a music app where you can create music sessions from your playlists. 
 | createdAt     | DateTime | date when Music Session is created (default field) |
 
 #### Messages
-
 | Property      | Type     | Description |
 | ------------- | -------- | ------------|
 | objectId      | String   | unique id for the user's message (default field) |
