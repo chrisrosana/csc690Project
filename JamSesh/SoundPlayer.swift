@@ -34,9 +34,11 @@ class SoundPlayer {
             let audioSession = AVAudioSession.sharedInstance()
             do {
                 try audioSession.setCategory(AVAudioSession.Category.playback)
+                try audioSession.setActive(true)
+            } catch {
+                print(error)
             }
-        }
-        catch {
+        } catch {
             print(error)
         }
     }
