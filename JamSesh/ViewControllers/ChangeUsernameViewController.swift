@@ -2,9 +2,7 @@
 //  ChangeUsernameViewController.swift
 //  JamSesh
 //
-//  Created by Christopher Rosana on 5/1/19.
-//  Copyright © 2019 Monali Chuatico. All rights reserved.
-//
+
 
 import UIKit
 import Parse

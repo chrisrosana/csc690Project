@@ -2,9 +2,6 @@
 //  SettingsViewController.swift
 //  JamSesh
 //
-//  Created by Monali Chuatico on 4/10/19.
-//  Copyright © 2019 Monali Chuatico. All rights reserved.
-//
 
 import UIKit
 import Parse

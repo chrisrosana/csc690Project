@@ -2,9 +2,7 @@
 //  PlaylistViewController.swift
 //  JamSesh
 //
-//  Created by Micaella Morales on 4/25/19.
-//  Copyright © 2019 Monali Chuatico. All rights reserved.
-//
+
 
 import UIKit
 import Parse

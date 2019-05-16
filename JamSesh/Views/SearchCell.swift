@@ -2,9 +2,7 @@
 //  SearchCell.swift
 //  JamSesh
 //
-//  Created by Micaella Morales on 4/19/19.
-//  Copyright © 2019 Monali Chuatico. All rights reserved.
-//
+
 
 import UIKit
 

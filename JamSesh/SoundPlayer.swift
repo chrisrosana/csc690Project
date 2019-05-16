@@ -2,9 +2,7 @@
 //  SoundPlayer.swift
 //  JamSesh
 //
-//  Created by Micaella Morales on 4/29/19.
-//  Copyright © 2019 Monali Chuatico. All rights reserved.
-//
+
 
 import AVFoundation
 import Parse

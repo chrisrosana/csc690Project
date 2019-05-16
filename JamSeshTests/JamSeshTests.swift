@@ -2,9 +2,7 @@
 //  JamSeshTests.swift
 //  JamSeshTests
 //
-//  Created by Monali Chuatico on 4/8/19.
-//  Copyright © 2019 Monali Chuatico. All rights reserved.
-//
+
 
 import XCTest
 @testable import JamSesh
